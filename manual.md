@@ -115,9 +115,9 @@ git@github.com:kiyoungbrain/promManual.git
 #Current_YM
 Current_YM='202502'
 ```
-2. db_202502.py 파일명을 집계하는 날짜로 변경 후 코드 내 실행함수와 파일간에 일치하는지 확인 후 실행
+2. db_202X0X.py 코드 내 실행함수와 파일간에 일치하는지 확인 후 실행
 ```python
-/ing/db_202502.py
+/ing/db_202X0X.py
 
 #main #main #main #main #main #main #main #main #main #main
 
