@@ -19,6 +19,12 @@ git@github.com:kiyoungbrain/promManual.git
 
 6️ **[양도양수 확인](#yang_matter)**
 
+<!-- 7️⃣ **[양도양수 확인](#yang_matter)** -->
+
+<!-- 8️⃣ **[양도양수 확인](#yang_matter)** -->
+
+<!-- 9️⃣ **[양도양수 확인](#yang_matter)** -->
+
 ---
 ## 1️⃣ 파일 정리
 - 아래와 같이 "2월_플랫폼별 정산데이터.zip"을 전달 받아 아래와 같이 파일을 정리한다.<br>(직전월 폴더 참고 할 것!)
@@ -201,7 +207,7 @@ if __name__ == '__main__':
 ```python
 /__refactoring/_make_report_all.py
 
-*프로모션 내역 사이트 ("http://192.168.1.2:8001/prom/") 이하 '사이트'한다.
+*프로모션 내역 사이트 ("http://192.168.1.2:8001/prom/") 이하 '사이트'라 한다.
 
 # 사이트의 '총금액' 테이블을 생성
 web_main.py
