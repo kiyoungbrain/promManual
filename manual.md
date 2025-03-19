@@ -1,6 +1,5 @@
 # 📌 프로모션 과금 정산 메뉴얼 <span style="font-size: 13px; color: gray;">(2025년 02월 기준으로 설명)</span>
-git@github.com:kiyoungbrain/promManual.git
-
+https://github.com/kiyoungbrain/promManual/blob/main/manual.md
 
 1️⃣ **[파일 정리](#1️⃣-파일-정리)**
 
