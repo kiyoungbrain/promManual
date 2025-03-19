@@ -240,6 +240,7 @@ SELECT * FROM prom.prom_ttaeng WHERE YM COLLATE utf8mb4_unicode_ci = @ym AND 사
 SELECT * FROM prom.prom_tkgb WHERE YM COLLATE utf8mb4_unicode_ci = @ym AND 사업자번호 COLLATE utf8mb4_unicode_ci = @사업자번호;
 ```
 * 정산 특이사항 구글시트(샘플)
+
 ![양도양수문제](manual_data/yang_matter.png)
 
 #### 2-1. 위 양도양수문제 시트에서 '대전유천점'의 내용을 보면
