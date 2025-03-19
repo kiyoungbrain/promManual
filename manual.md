@@ -215,7 +215,7 @@ web_main.py
 web_report.py
 
 # 사이트의 '세부내역' 테이블을 생성
-# /__refactoring/data 내 모든 가맹점주의 프로모션 데이터를 json파일로 생성
+# 모든 가맹점주의 프로모션 데이터를 json파일로 생성하여 /__refactoring/data 내에 저장
 shop_detail.py
 ```
 ## <span id="yang_matter">6️ 양도양수 확인</span>
@@ -226,8 +226,8 @@ shop_detail.py
 - 아래 Query를 MySQL Workbench에서 '사업자등록번호', '해당날짜'를 수정해서 과금내역을 '날짜'별로 구분이 잘되어 있는지 확인한다.
 - 만약 수정이 필요한 경우 아래 '2'를 따른다.
 ```
+* Query
 ```sql
-*Query를
 
 SET @ym = '202502'; -- 해당날짜
 SET @사업자번호 = '6965100986';  -- 사업자번호
@@ -239,6 +239,7 @@ SELECT * FROM prom.prom_yogiyo WHERE YM COLLATE utf8mb4_unicode_ci = @ym AND 사
 SELECT * FROM prom.prom_ttaeng WHERE YM COLLATE utf8mb4_unicode_ci = @ym AND 사업자번호 COLLATE utf8mb4_unicode_ci = @사업자번호;
 SELECT * FROM prom.prom_tkgb WHERE YM COLLATE utf8mb4_unicode_ci = @ym AND 사업자번호 COLLATE utf8mb4_unicode_ci = @사업자번호;
 ```
+* 정산 특이사항 구글시트(샘플)
 ![양도양수문제](manual_data/yang_matter.png)
 
 #### 2-1. 위 양도양수문제 시트에서 '대전유천점'의 내용을 보면
@@ -404,6 +405,7 @@ if __name__ == "__main__":
 #### 4. 수정된 자료 덮어쓰기
 ---
 /__refactoring/data 에 수정된 자료를 붙여넣는다.
+
 ![양도양수문제](manual_data/yang_matter3.png)
 
 
